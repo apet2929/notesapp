@@ -1,0 +1,20 @@
+
+.noteClass {
+    color: red;
+    background-color: aquamarine;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.noteClass > p {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.noteClass > form, input {
+    width: 95%;
+    margin: auto;
+}
