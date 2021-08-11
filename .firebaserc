@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "notesapp-fe3c2": {
+      "hosting": {
+        "notesapp": [
+          "notesapp-fe3c2"
+        ]
+      }
+    }
+  }
+}
