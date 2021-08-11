@@ -1,3 +1,4 @@
+<h1 *ngIf="!hasNotes">You have no notes! Add one below</h1>
 <app-note
   *ngFor="let val of notes; let i = index"
   [index]="i"

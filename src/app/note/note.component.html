@@ -1,6 +1,7 @@
 <div class="noteClass">
     <p *ngIf="!note">hello World!</p>
     <p *ngIf="note">{{note}}</p>
+    <p> {{dateCreated}}</p>
     <form [formGroup]="inputForm" (ngSubmit)="onSubmit()">
         <input type="text" name="" id="" formControlName="noteInput" placeholder="peepee">
         <input type="submit" value="Submit">
